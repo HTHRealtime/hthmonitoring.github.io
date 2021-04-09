@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  	<style>
+#HTH_realtime_monitor {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+font-size:12px;
+}
+#HTH_realtime_monitor td, #HTH_realtime_monitor th {
+border: 1px solid #ddd;
+padding: 4px;
+}
+#HTH_realtime_monitor tr:nth-child(even){background-color: #f2f2f2;}
+#HTH_realtime_monitor tr:hover {background-color: #ddd;}
+#HTH_realtime_monitor th {
+ padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>HTH Monitoring Site</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="templatemo-style.css">
+    <link rel="stylesheet" href="owl.css">
+
+  </head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Main -->
+        <div id="main">
+          <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+
+			  	 <div class="col-md-6 col-sm-12">
+                    <div class="row no-gutter">
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="#">Overview</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="#">Cleaning</a>
+                        </div>
+                      </div>
+					  <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="#">Repair</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="#">Testing</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+				  
+				  <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="#">Flashing</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="#">Fulfillment</a>
+                        </div>
+                      </div>
+					  <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="#">Warehouse</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="#">Others</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+            </header>
+
+            
+            <!-- Tables -->
+            <section class="tables">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="section-heading">
+                      <h2></h2>
+                    </div>
+                       <div class="default-table">
+	
+                      <table id="HTH_realtime_monitor">
+							
+							
+	<!-- Table start from here "Tester|ITB Box|Make and Model| ITB Job |Job Status|Good|Bad SW|Bad HW|Work order|ITB Quantity|Start Time|End Time|Duration|Average"-->
+	
+<tr>
+<th colspan="5" style="text-align:center">Testing Work Order Report <span id='_nowdate'></span> </th>
+</tr>
+<tr>
+<th>Make and Model</th>
+<th>Good</th>
+<th>Failed Software</th>
+<th>Failed Hardware</th>
+<th>Total</th>
+</tr>
+<th colspan="5" style="text-align:center">ND-SF89002-0221</th>
+</tr>
+<tr>
+<td>Apple iPhone 6S (16GB)</td>
+<td>5</td>
+<td>0</td>
+<td>1</td>
+<td>6</td>
+</tr>
+<th colspan="5" style="text-align:center">No work order</th>
+</tr>
+<tr>
+<td>ANS UL50</td>
+<td>1221</td>
+<td>0</td>
+<td>0</td>
+<td>1221</td>
+</tr>
+<tr>
+<td>ANS W-U300 Wiko Ride</td>
+<td>1210</td>
+<td>0</td>
+<td>0</td>
+<td>1210</td>
+</tr>
+<tr>
+<td>Apple iPhone 3G (16GB)</td>
+<td>110</td>
+<td>0</td>
+<td>0</td>
+<td>110</td>
+</tr>
+<tr>
+<td>LG TP260 K20 Plus</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>11</td>
+</tr>
+
+<!-- Table end from here --> 
+						</table>
+						<button onclick="exportTableToExcel('HTH_realtime_monitor', 'hthtableoutput')">Export HTML Table To Excel File</button>
+                    </div>
+                <h2></h2>
+                  </div>
+				  <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="index.html">Monitoring</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="ReportHtracker.html">Htracker Report</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+				   <div class="col-md-6 col-sm-12">
+                    <div class="row">
+                      
+                      
+                      <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="ReportWorkorder.html">Work Order Report</a>
+                        </div>
+                      </div>
+					  <div class="col-md-6">
+                        <div class="filled-rounded-button">
+                          <a href="ReportSummary.html">Summary Report</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Forms -->
+           
+
+           
+
+          </div>
+        </div>
+
+
+
+    </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script>
+function exportTableToExcel(tableID, filename = ''){
+    var downloadLink;
+    var dataType = 'application/vnd.ms-excel';
+    var tableSelect = document.getElementById(tableID);
+    var tableHTML = tableSelect.outerHTML.replace(/ /g, '%20');
+    
+    // Specify file name
+    filename = filename?filename+'.xls':'excel_data.xls';
+    
+    // Create download link element
+    downloadLink = document.createElement("a");
+    
+    document.body.appendChild(downloadLink);
+    
+    if(navigator.msSaveOrOpenBlob){
+        var blob = new Blob(['\ufeff', tableHTML], {
+            type: dataType
+        });
+        navigator.msSaveOrOpenBlob( blob, filename);
+    }else{
+        // Create a link to the file
+        downloadLink.href = 'data:' + dataType + ', ' + tableHTML;
+    
+        // Setting the file name
+        downloadLink.download = filename;
+        
+        //triggering the function
+        downloadLink.click();
+    }
+}
+</script>
+  
+  <script>
+		n =  new Date();
+		y = n.getFullYear();
+		m = n.getMonth() + 1;
+		d = n.getDate();
+		document.getElementById("_nowdate").innerHTML = "(" + m + "/" + d + "/" + y + ")";
+</script>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <script src="browser.min.js"></script>
+    <script src="breakpoints.min.js"></script>
+    <script src="transition.js"></script>
+    <script src="owl-carousel.js"></script>
+    <script src="custom.js"></script>
+</body>
+
+
+  </body>
+
+</html>
